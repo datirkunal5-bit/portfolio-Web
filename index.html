@@ -652,6 +652,21 @@
     .project-title { font-size: 1.1rem; }
     .about-stats { grid-template-columns: 1fr 1fr; }
   }
+  .profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.profile img {
+  width: 220px;
+  height: 240px;
+  border-radius: 20%;
+  object-fit: cover;
+  border: 2px solid var(--neon);
+  box-shadow: 0 0 20px rgba(0, 245, 160, 0.25);
+}
 </style>
 </head>
 <body>
@@ -685,10 +700,13 @@
   <div class="hero-glow"></div>
   <div class="hero-content">
     <div class="hero-tag">Available for opportunities</div>
+    <div class="profile">
     <h1>
       Kunal<br>
       <span class="line2">Da<span class="highlight">tir</span></span>
     </h1>
+   <img src="C:\Users\BHAUSAHEB\Desktop\portfolio kunal\portfolio-Web\assets\kunal profile.jpeg" alt="Kunal Datir">
+    </div>
     <p class="hero-sub">MERN Stack Developer crafting high-performance web applications — from pixel-perfect frontends to rock-solid backends that scale.</p>
     <div class="hero-cta">
       <a href="#projects" class="btn-primary">View Projects</a>
